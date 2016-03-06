@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:text="Some more contact information!"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:hint="Street Address"
+        android:id="@+id/address"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:hint="City"
+        android:id="@+id/city"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:hint="Postal Code"
+        android:id="@+id/postalcode"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:hint="Date of Birth (MM/DD/YYYY)"
+        android:id="@+id/dob"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:hint="Age in Years"
+        android:id="@+id/age"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Were you born in Canada?"
+        android:id="@+id/born_in_canada"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        />
+
+
+    <Spinner
+        android:id="@+id/Place_Of_Birth"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:entries="@array/yes_or_no">
+    </Spinner>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/button3"
+        android:paddingRight="16dp"
+        android:layout_gravity="right"
+        android:onClick="toLongAnswer"/>
+
+</LinearLayout>

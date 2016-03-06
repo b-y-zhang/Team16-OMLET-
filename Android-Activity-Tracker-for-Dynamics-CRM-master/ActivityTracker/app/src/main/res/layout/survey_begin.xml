@@ -1,0 +1,155 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="false">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/main_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            app:popupTheme="@style/PopupOverlay"
+            app:theme="@style/ToolbarOverlay" />
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="bob.vanhacks.Form">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="21dp"
+                android:text="Dear Big Sister Applicant,"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView"
+                android:layout_alignStart="@+id/textView"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="25dp"
+                android:text="Thank you for your interest in volunteering as a Big Sister! Make sure you have watched our Presentation!"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignStart="@+id/textView2"
+                android:layout_below="@+id/textView2"
+                android:layout_marginTop="20dp"
+                android:text="Before you fill out our application, please make sure you meet the criteria to become a Big Sister."
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <CheckBox
+                android:id="@+id/age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView3"
+                android:layout_alignStart="@+id/textView3"
+                android:layout_below="@+id/textView3"
+                android:layout_marginTop="21dp"
+                android:checked="false"
+                android:text="I am at least 19 years old." />
+
+            <CheckBox
+                android:id="@+id/commitment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/age"
+                android:layout_alignStart="@+id/age"
+                android:layout_below="@+id/age"
+                android:layout_marginTop="23dp"
+                android:checked="false"
+                android:text="I am able to commit to seeing my Little Sister for 2-4 hours minimum per week, for a minimum of one year." />
+
+            <CheckBox
+                android:id="@+id/adjectives"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/commitment"
+                android:layout_alignStart="@+id/commitment"
+                android:layout_below="@+id/commitment"
+                android:layout_marginTop="21dp"
+                android:checked="false"
+                android:text="I am mature, stable, reliable, respectful, and accepting of others." />
+
+            <CheckBox
+                android:id="@+id/legal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/adjectives"
+                android:layout_alignStart="@+id/adjectives"
+                android:layout_below="@+id/adjectives"
+                android:layout_marginTop="24dp"
+                android:checked="false"
+                android:text="I am either a Lower Mainland resident who has lived in Canada for at least one year, OR I can obtain an International Criminal Record Check from my most recent country of residence." />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/legal"
+                android:layout_alignStart="@+id/legal"
+                android:layout_below="@+id/legal"
+                android:layout_marginLeft="29dp"
+                android:layout_marginStart="29dp"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/legal"
+                android:layout_alignRight="@+id/legal"
+                android:layout_below="@+id/textView4"
+                android:layout_marginTop="22dp"
+                android:onClick="toContactInfo"
+                android:text="Next" />
+
+
+        </RelativeLayout>
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pullRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/itemsList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:animateLayoutChanges="true"
+                android:overScrollMode="always">
+
+            </ListView>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+
+</ScrollView>

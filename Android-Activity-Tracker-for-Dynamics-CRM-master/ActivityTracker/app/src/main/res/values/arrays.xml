@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="preferred_contact_list">
+        <item>@string/feedbacktype1</item>
+        <item>@string/feedbacktype2</item>
+        <item>@string/feedbacktype3</item>
+    </string-array>
+
+    <string-array name="yes_or_no">
+        <item>@string/yes</item>
+        <item>@string/no</item>
+    </string-array>
+</resources>

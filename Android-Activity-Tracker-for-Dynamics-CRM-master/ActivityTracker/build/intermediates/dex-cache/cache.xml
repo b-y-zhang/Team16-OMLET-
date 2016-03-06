@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-c9dd91bbeecb239a1a1a03a10d36ab53934303c1.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/gson-2.3.1-3ab3f279fa47828013ebb368558b3791c0297521.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-839781404d771abfea22ae5d1e6a6873a34f6309.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-37862787ab6a325ff0523460bdde9f86734dd78a.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/commons-lang3-3.4-3eec8e9a6b9a2eb04e158172861af0a9824a45b5.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/ActivityTracker/crmsdk2015/1.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8c9ec42260722b10fd534db0dec8b27f16eee1eb">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-7f0999e1df5b9f39d7d7ca1f8e19e830ac8bc9b6.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-4c6d71c28ed3f6778a75c462fa7309a877d61ca4.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/com.microsoft.aad/adal/1.1.7/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="dc083d4004dfb652249a14160db55cc55cd922bc">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-d2a7e57935d27388fb5bc9988740bb860d6f3044.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/com.nispok/snackbar/2.10.5/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="60a549288edf3b2881c59b3e751cf16e2fa81655">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-a1414e6e7d7f7e5eeb2e2c442dcba88d8b87b6bf.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/1.9.0/a681c044244d9fc375198588297a39ba78028423/retrofit-1.9.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a681c044244d9fc375198588297a39ba78028423">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/retrofit-1.9.0-f652752c5195fa8c238bea6524b867847970061c.jar" />
+    </item>
+    <item
+        jar="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Bob/Desktop/GitHub/omletSquared/Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/build/intermediates/pre-dexed/debug/classes-7b82e26c6996b5a48631d2784a532d634b5ba949.jar" />
+    </item>
+
+</items>
