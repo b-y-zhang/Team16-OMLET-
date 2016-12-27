@@ -7,5 +7,6 @@ Adapted and extended an Andriod application to create a Form-based GUI with inpu
 - After the form is submitted, the data is packaged nicely into a .csv format that is ready to be uploaded to the CRM automatically, once access is given. 
 
 Applications Used: Android Studio, GitHub for Desktop (iOS)
+Team Members: Frances Chong, Clara Chu, Victor Wong, Bob Zhang
 
 Code integrated into: Android-Activity-Tracker-for-Dynamics-CRM-master/ActivityTracker/app/src/main/java/com/microsoft/activitytracker/Activities/MainActivity.java
